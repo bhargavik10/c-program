@@ -4,10 +4,10 @@ main()
 	
 int i,s=1,n,v;
 scanf("%d",&n);
-for(i=0;n>0;)
+for(i=0;n>0;i++)
 {
 	i=n%10;
-	if(i%2!=0)
+	if(i%2==0)
 	{
 		v++;
 		
