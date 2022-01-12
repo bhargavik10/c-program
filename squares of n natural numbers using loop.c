@@ -7,10 +7,10 @@ main()
 	sum=0;
 	while(a<=n)
 	{
-	 i=a*a;
-	 sum=sum+i;
+	 i=a*n;
+	 sum=sum+a;
 	 a=a+1;
 	}
-	printf("%d",sum);
+	printf("%d",i);
 
 }
