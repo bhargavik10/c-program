@@ -5,7 +5,7 @@ int main()
 	scanf("%d",&m);
 	while(sum<=m)
 	{
-		sun=a+b;
+		sum=a+b;
 		printf("%d\n",sum);
 		a=b;
 		b=sum;
